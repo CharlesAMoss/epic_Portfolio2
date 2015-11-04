@@ -43,7 +43,7 @@ body {
 /* ================================ header */
 
 .header {
-  margin: 6em 0 4em 0;
+  margin: 6em 0 1em 0;
   padding: 0;
 }
 
@@ -79,9 +79,15 @@ a.header__site-link span {
 
 }
 
+.header__content {
+  font-weight: 200;
+  font-size: 1.3em;
+  padding-top: 2em;
+  line-height: 1.3em;
+  width: 70%;
+}
+
 /* ================================ footer */
-
-
 
 .footer__content {
   margin-bottom: 0;
@@ -134,6 +140,10 @@ article:hover {
   font-weight: 200;
   padding-bottom: .5em;
   border-bottom: 2px solid #adadad;
+  transition: 1s;
+}
+.node__title:hover {
+  border-bottom: 2px solid #00586f;
 }
 .node__title a {
   text-decoration: none;
@@ -144,7 +154,12 @@ article:hover {
   display: none;
 }
 
+article.node-teaser img {
+  margin: 1em 0;
+}
+
 .node-readmore a {
+  display: block;
   text-decoration: none;
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
   font-weight: 200;
@@ -154,8 +169,6 @@ article:hover {
 .node-readmore a:before {
     content: ">> ";
 }
-
-
 
 /* icons ===================== */
 
@@ -198,8 +211,6 @@ article:hover {
     display: table;
     clear: both;
 }
-
-
 
 /* =========== content styles */
 
