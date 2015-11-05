@@ -31,7 +31,8 @@ html {
 }
 body {
     /*background: #00a7f7;*/
-    background: #f5f2f0;
+    background-color: #f5f2f0;
+    /*background-image: url(/sites/default/files/background_colors.png);*/
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0 auto;
     width: 100%;
@@ -95,7 +96,7 @@ a.header__site-link span {
 
 .region-bottom {
   padding: 1em;
-  color: #fff;
+  color: #000;
   margin: 0;
   margin-top: 150px;
   background: #000;
@@ -147,7 +148,7 @@ article:hover {
 }
 .node__title a {
   text-decoration: none;
-    color: #00586f;
+  color: #00586f;
 }
 
 .field-name-field-pj-image .field-label {
@@ -156,6 +157,9 @@ article:hover {
 
 article.node-teaser img {
   margin: 1em 0;
+  border-radius: 4px;
+
+
 }
 
 .node-readmore a {
@@ -172,6 +176,16 @@ article.node-teaser img {
 
 /* icons ===================== */
 
+.social__link i {
+  color: rgba(197,193,191,.5);
+  font-size: 5em;
+  margin: 0 30% .3em ;
+  transition: 1s;
+
+}
+.social__link i:hover {
+  color: #00586f;
+}
 .feed-icon {
   display: none;
 }
