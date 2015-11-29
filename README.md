@@ -9,13 +9,7 @@ _User can view github projects, blog posts_
 db_admin
 fallinlove
 
-```
-# Privileges for `db_admin`@`localhost`
 
-GRANT USAGE ON *.* TO 'db_admin'@'localhost' IDENTIFIED BY PASSWORD '*FE23E71C60B4B50A39CEB40E52DC3352BD3254CF';
-
-GRANT ALL PRIVILEGES ON `charlesamoss`.* TO 'db_admin'@'localhost';
-```
 
 
 ## Technologies Used
