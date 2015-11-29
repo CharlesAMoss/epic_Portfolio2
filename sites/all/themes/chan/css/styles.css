@@ -142,6 +142,9 @@ article.node-teaser img {
   border-radius: 4px;
 }
 
+article.node-teaser img:hover {
+}
+
 .node-readmore a {
   display: block;
   text-decoration: none;
@@ -152,8 +155,6 @@ article.node-teaser img {
 .node-readmore a:before {
     content: ">> ";
 }
-
-/* === article teaser ==================== */
 
 article.view-mode-full {
   width: 100%;
@@ -171,15 +172,65 @@ article:hover {
   background: rgba(197,193,191,.9);
   box-shadow: 0 0 0 rgba(0,0,0,0);
 }
+
+/* article = project ============ */
+.page__title {
+  color: #00586f;
+  font-family: Tahoma,Verdana,Segoe,sans-serif;
+  font-size: 2em;
+  font-weight: 200;
+  line-height: 1;
+  margin-bottom: .2em;
+  margin-left: 20px;
+}
+.field-item img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16),
+		0 3px 6px rgba(0,0,0,.23);
+
+}
+.field-item .body__content {
+  max-width: 600px;
+  }
+
 .field-name-field-pj-image .field-label {
   display: none;
 }
+
+.field-name-field-link a {
+  color: #00586f;
+  font-family: Tahoma,Verdana,Segoe,sans-serif;
+  font-size: 1.5em;
+  font-weight: 200;
+
+  margin-bottom: .2em;
+  text-decoration: none;
+
+}
+.field-name-field-link a:hover {
+  text-decoration: underline;
+}
+
 .article__codepen { /* wraps the iframe embed */
   width: 600px;
 }
 
+.field-name-field-project-tag {
+  width: 600px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #00586f;
+ }
+
 .field-name-field-project-tag a {
-  
+  float: left;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #00586f;
+  font-family: Tahoma,Verdana,Segoe,sans-serif;
+  font-weight: 200;
 }
 
 /* icons ===================== */
