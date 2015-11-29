@@ -199,24 +199,37 @@ article:hover {
   display: none;
 }
 
+.field-name-field-code-highlight {
+  padding: 5px;
+  width: 600px;
+  margin: 1em 0;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16),
+		0 3px 6px rgba(0,0,0,.23);
+
+}
+
 .field-name-field-link a {
   color: #00586f;
   font-family: Tahoma,Verdana,Segoe,sans-serif;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 200;
-
+  transition: 1s;
   margin-bottom: .2em;
   text-decoration: none;
-
 }
 .field-name-field-link a:hover {
   text-decoration: underline;
 }
 
+.field-name-field-link p {
+  margin-top: .5em;
+}
+
 .article__codepen { /* wraps the iframe embed */
   width: 600px;
 }
-
 .field-name-field-project-tag {
   width: 600px;
   margin-top: 10px;
@@ -231,6 +244,11 @@ article:hover {
   color: #00586f;
   font-family: Tahoma,Verdana,Segoe,sans-serif;
   font-weight: 200;
+  transition: 1s;
+}
+
+.field-name-field-project-tag a:hover {
+  text-decoration: underline;
 }
 
 /* icons ===================== */
@@ -277,6 +295,83 @@ article:hover {
 .is-active.tabs-primary__tab {
   border-bottom-color: #f5f2f0;
 }
+
+/* forms ==================== */
+
+.contact-form {
+  width: 600px;
+  padding: 20px;
+
+  border-radius: 4px;
+  margin-bottom: 1em;
+}
+
+/* form ====================== */
+
+#result {
+    display: none;
+}
+.main__form {
+    padding: 40px;
+    border: 1px solid #d6cac2;
+    border-radius: 4px;
+    margin-bottom: 2em;
+}
+
+.form__group {
+}
+
+.form-title {
+    font-size: 1.2em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: .05em;
+}
+.form-item {
+  margin: 0;
+  padding: 0;
+}
+
+.form-item, input {
+    margin-top: .5em;
+    padding: 15px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1.2em;
+}
+input {
+  border: 1px solid #d6cac2;
+}
+.radio__group {
+    padding: .5em 0 1em 0;
+    margin-left: 1em;
+}
+.form__radio {
+    margin: 1em 0 0 2em;
+}
+.form-item select {
+    margin: .5em 0 1em 0;
+    padding: 15px;
+    width: 100%;
+    height: 60px;
+    border-radius: 4px;
+    font-size: 1.2em;
+    border: 1px solid #d6cac2;
+}
+.form-submit {
+  background: #f5f2f0;
+  border-radius: 4px;
+  border: 1px solid #d6cac2;
+  color: #000;
+  padding: 20px;
+  font-size: 1em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.form-submit:hover {
+    color: #b7a294;
+    background: #fff;
+}
+
 
 /* clear fix ================ */
 
