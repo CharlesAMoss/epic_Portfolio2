@@ -214,6 +214,10 @@ article:hover {
   display: none;
 }
 
+.field-item img.project__example {
+  float: none;
+}
+
 .field-name-field-code-highlight {
   padding: 5px;
   width: 600px;
@@ -237,11 +241,9 @@ article:hover {
 .field-name-field-link a:hover {
   text-decoration: underline;
 }
-
 .field-name-field-link p {
   margin-top: .5em;
 }
-
 .article__codepen { /* wraps the iframe embed */
   width: 600px;
 }
@@ -265,6 +267,13 @@ article:hover {
 .field-name-field-project-tag a:hover {
   text-decoration: underline;
 }
+
+/* about ===================== */
+
+.field-item img.about__picture {
+  width: 200px;
+}
+
 
 /* icons ===================== */
 
